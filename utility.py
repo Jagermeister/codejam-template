@@ -1,5 +1,5 @@
 
-#Parameter parsing:
+#Parameter parsing new lines of integers
 if False:
     N, P = [int(x) for x in input().split(" ")]
     Ri = [int(x) for x in input().split(" ")]
@@ -7,18 +7,14 @@ if False:
     for _ in range(P):
         pairs.append([int(x) for x in input().split(" ")])
 
-
-
+# Replace a single character within a string
 def stringReplace(str, i, c):
     return str[:i] + c + str[i+1:]
 
+# Loop backwards:
+#   for x in range (len(n), 0, -1):
 
-def backwardsLoop(n):
-    n = [1,2,3,4,5,6,7,8,9]
-    for x in range (len(n), 0, -1):
-        print(x)
-
-
+# Min/Max values and index
 def minMaxValueIndex(values):
     minV = min(values)
     maxV = max(values)
@@ -27,10 +23,10 @@ def minMaxValueIndex(values):
         (maxV, values.index(maxV)),
     )
 
+# Template for list of characters
 abc = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
+# Truncate to integer based on 0.5
 import math
 def normal_round(n):
-    if n - math.floor(n) < 0.5:
-        return math.floor(n)
-    return math.ceil(n)
+    return math.floor(n) if n - math.floor(n) < 0.5 else math.ceil(n)
