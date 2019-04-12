@@ -1,7 +1,7 @@
 # CodeJam Template
 Template for parsing input, doing work, and providing formatted responses for Google's CodeJam competition.
 
-
+[Current Competition](https://codingcompetitions.withgoogle.com/codejam/schedule)
 [Past Competitions](https://codingcompetitions.withgoogle.com/codejam/archive)
 
 
