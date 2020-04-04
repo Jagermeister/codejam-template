@@ -30,3 +30,9 @@ abc = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 import math
 def normal_round(n):
     return math.floor(n) if n - math.floor(n) < 0.5 else math.ceil(n)
+
+def Reverse(s):
+  return s[::-1]
+
+def BitFlip(s):
+  return ''.join(str(1 - int(c)) for c in s)
