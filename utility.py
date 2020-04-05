@@ -36,3 +36,6 @@ def Reverse(s):
 
 def BitFlip(s):
   return ''.join(str(1 - int(c)) for c in s)
+
+# Log during interactive session
+# print('asdf', '\t', 'fdsa', flush=True, file=sys.stderr)
