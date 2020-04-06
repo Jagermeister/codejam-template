@@ -14,3 +14,4 @@ For more challenging problems, it is helpful to study algorithms for more advanc
 ## Future
 - Binary Search
 - Archive solutions
+- Interactive training
